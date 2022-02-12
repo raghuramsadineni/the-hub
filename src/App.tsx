@@ -21,7 +21,7 @@ import './app/theme/variables.scss';
 
 import AppRouting from './app/routing/AppRouting';
 import { Auth0Provider } from "@auth0/auth0-react";
-import { AUTH0_AUDIENCE, AUTH0_CLIENT_ID, AUTH0_DOMAIN, AUTHO_SCOPE } from './environment/auth0.config';
+import { AUTH0_CLIENT_ID, AUTH0_DOMAIN, AUTHO_SCOPE } from './environment/auth0.config';
 
 setupIonicReact();
 
@@ -31,7 +31,6 @@ const App: React.FC = () => (
       domain={AUTH0_DOMAIN}
       clientId={AUTH0_CLIENT_ID}
       scope={AUTHO_SCOPE}
-      audience={AUTH0_AUDIENCE}
       redirectUri={window.location.origin}
       useRefreshTokens={true}
       cacheLocation="localstorage"
