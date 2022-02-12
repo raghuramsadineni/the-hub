@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { IonButton, IonContent, IonPage, IonText } from '@ionic/react';
+import { IonButton, IonContent, IonImg, IonPage, IonText } from '@ionic/react';
 import './Home.scss';
 import { RouteComponentProps, withRouter } from 'react-router';
 import { useAuth0 } from "@auth0/auth0-react";
@@ -23,9 +23,13 @@ const Home: React.FC<RouteComponentProps> = (props) => {
 
     return (
         <IonPage>
-            <IonContent className="imageContainer">
+            <IonContent>
                 <div className="appContainer">
-                    <IonButton fill="outline" color='light' onClick={() => loginWithRedirect()}>Sign In</IonButton>
+                    <IonImg src='https://media.milanote.com/p/images/1NiWVo1gg8XEe4/hhS/thlogo5.png' className='homeLogo'></IonImg>
+                    <div className="signInContainer">
+                        <IonText><h3>Welcome to The HUB!!</h3></IonText>
+                        <IonButton onClick={() => loginWithRedirect()}>Sign In</IonButton>
+                    </div>
                 </div>
             </IonContent>
         </IonPage>

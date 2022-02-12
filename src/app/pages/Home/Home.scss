@@ -1,18 +1,28 @@
 .imageContainer{
 }
 
+.homeLogo{
+    width: 100%;
+    display: inline-block;
+    object-fit: contain;
+    max-width: 50%;
+    float: left;
+}
+
 .appContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
     height: -webkit-fill-available;
-    background-image: url("https://media.milanote.com/p/images/1NiWVo1gg8XEe4/hhS/thlogo5.png");
-    background-size: cover;
 }
 
 .appLogo {
     width: 10%;
+}
+
+.signInContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    flex-direction: column;
 }
 
 @media (max-width: 576px) {
