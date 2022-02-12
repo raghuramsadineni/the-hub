@@ -1,0 +1,8 @@
+{
+  "name": "TheHUB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "939fff2d"
+}
