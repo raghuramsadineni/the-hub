@@ -1,0 +1,17 @@
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: -webkit-fill-available;
+}
+
+.appLogo {
+    width: 10%;
+}
+
+@media (max-width: 576px) {
+    .appLogo {
+        width: 50%;
+    }
+}
