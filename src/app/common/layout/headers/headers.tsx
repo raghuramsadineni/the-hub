@@ -1,6 +1,7 @@
 import { IonButton, IonButtons, IonText, IonToolbar } from "@ionic/react"
 import { useAuth0 } from "@auth0/auth0-react";
 import { RouteComponentProps, withRouter } from "react-router";
+import "./Header.scss";
 
 const Header: React.FC<RouteComponentProps> = (props) => {
 
@@ -11,7 +12,7 @@ const Header: React.FC<RouteComponentProps> = (props) => {
     }
 
     return (
-        <IonToolbar>
+        <IonToolbar className="appBarBackground">
             <IonText><h3>The HUB</h3></IonText>
             <IonButtons slot="end">
                 <IonButton onClick={()=>logout({ returnTo: window.location.origin })}>Logout</IonButton>

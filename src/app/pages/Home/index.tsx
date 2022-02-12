@@ -23,12 +23,9 @@ const Home: React.FC<RouteComponentProps> = (props) => {
 
     return (
         <IonPage>
-            <IonContent>
+            <IonContent className="imageContainer">
                 <div className="appContainer">
-                    <IonText>
-                        <h1>Welcome to The Hub!</h1>
-                    </IonText>
-                    <IonButton onClick={() => loginWithRedirect()}>Sign In</IonButton>
+                    <IonButton fill="outline" color='light' onClick={() => loginWithRedirect()}>Sign In</IonButton>
                 </div>
             </IonContent>
         </IonPage>

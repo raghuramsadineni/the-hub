@@ -1,0 +1,26 @@
+.slideContainer {
+    height: -webkit-fill-available;
+}
+
+.slideCardContainer {
+    height: -webkit-fill-available;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://media.milanote.com/p/images/1NiWZU1gg8XEe6/Fmf/thbackground.png");
+    background-size: cover;
+}
+
+.slideQuestionContainer {
+    width: 65%;
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.slideQuestionText {
+    text-align: center;
+}
+
+.slideInputContainer{
+    border-bottom: 2px solid white;
+}

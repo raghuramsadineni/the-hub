@@ -1,9 +1,14 @@
+.imageContainer{
+}
+
 .appContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     height: -webkit-fill-available;
+    background-image: url("https://media.milanote.com/p/images/1NiWVo1gg8XEe4/hhS/thlogo5.png");
+    background-size: cover;
 }
 
 .appLogo {
