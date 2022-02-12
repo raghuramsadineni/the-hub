@@ -12,7 +12,7 @@ const UserSlides: React.FC<IUserSlides> = (props) => {
                 <IonCard className="slideCardContainer">
                     <div className="slideQuestionContainer">
                         <IonText color="light"><h3>What is your name?</h3></IonText>
-                        <IonInput color="light" value={props.userInfo?.name}> </IonInput>
+                        <IonInput color="light" value={props.userInfo?.name} className="slideInputContainer"> </IonInput>
                     </div>
                 </IonCard>
             </SwiperSlide>
