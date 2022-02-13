@@ -7,6 +7,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { PrivateRouteProps } from '../utilities/interfaces/IPrivateRoute';
 import Dashboard from '../pages/Dashboard';
 import Slides from '../pages/Slides';
+import Plans from '../pages/Plans';
 
 const AppRouting: React.FC = () => {
 
