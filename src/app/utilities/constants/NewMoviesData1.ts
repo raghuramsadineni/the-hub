@@ -113,25 +113,6 @@ export const NewMoviesData1=[
         "streamingAvailability": "https://tv.apple.com/us/movie/proximity/umc.cmc.4p898h13r1gpszexfqqnv95ir?playableId=tvs.sbd.9001%3A1528395445"
     },
     {
-        "imageurl": "https://m.media-amazon.com/images/M/MV5BNzVkMDEyNDQtNmJlMC00MTNiLTk5MGItZjQ2Nzg3MTE5OGUwXkEyXkFqcGdeQXVyMTczNDI0Ng@@._V1_UX182_CR0,0,182,268_AL_.jpg",
-        "genre": [
-            "Adventure",
-            "Comedy",
-            "Drama"
-        ],
-        "imdbid": "tt8356394",
-        "title": "The Dark Divide",
-        "runtime": "107 min",
-        "imdbrating": 6,
-        "released": 2020,
-        "type": "movie",
-        "synopsis": "Equal parts Jack London, Heart of Darkness and science fiction, shy butterfly expert (DAVID CROSS) embarks on a month-long adventure trekking through one of America's most rugged wildernesses after the death of his wife (DEBRA MESSING).",
-        "language": [
-            "English"
-        ],
-        "streamingAvailability": "https://itunes.apple.com/us/movie/the-dark-divide/id1538734043?uo=4&at=1000l3V2"
-    },
-    {
         "imageurl": "https://m.media-amazon.com/images/M/MV5BMDdiY2VlMzYtZWU0Ny00N2U4LTk0YmEtZGM2NzY0NjNjMDZhXkEyXkFqcGdeQXVyMjQ1NDU4NTA@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "genre": [
             "Drama"
@@ -185,24 +166,6 @@ export const NewMoviesData1=[
             "English"
         ],
         "streamingAvailability": "https://tv.apple.com/us/movie/the-turning/umc.cmc.2lggefzd7gnn12dbpazj3flkv?playableId=tvs.sbd.9001%3A1494549988"
-    },
-    {
-        "imageurl": "https://m.media-amazon.com/images/M/MV5BMjcwMDcxZDYtMzM3Zi00MTRjLWIwNjktOTM5ZGMxZGM3MmU2XkEyXkFqcGdeQXVyNjk2NTA3MzU@._V1_UX182_CR0,0,182,268_AL_.jpg",
-        "genre": [
-            "Adventure",
-            "Horror"
-        ],
-        "imdbid": "tt6483422",
-        "title": "They Reach",
-        "runtime": "87 min",
-        "imdbrating": 4.5,
-        "released": 2020,
-        "type": "movie",
-        "synopsis": "In 1979, a young girl stumbles upon a possessed tape player. She unknowingly unleashes a demonic entity that haunts her family while slowly dragging the small town of Clarkston to Hell.",
-        "language": [
-            "English"
-        ],
-        "streamingAvailability": "https://watch.amazon.com/detail?asin=B08L5B41VX&camp=1789&creativeASIN=B08L5B41VX&ie=UTF8&linkCode=xm2&tag=09-20"
     },
     {
         "imageurl": "https://m.media-amazon.com/images/M/MV5BOWI4NTU5OTEtMjI2NS00NTg0LTljMWMtZTg2NDdhNmI3ODFjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UY268_CR16,0,182,268_AL_.jpg",
@@ -404,23 +367,6 @@ export const NewMoviesData1=[
             "English"
         ],
         "streamingAvailability": "https://tv.apple.com/us/movie/bill--ted-face-the-music/umc.cmc.48qozaz4je2xamm825c3fwlyn?playableId=tvs.sbd.9001%3A1516316312"
-    },
-    {
-        "imageurl": "https://m.media-amazon.com/images/M/MV5BZGRiODVlOWEtZTc0OS00OWNlLTk0MTYtMzFkMmNlNTMxZTZmXkEyXkFqcGdeQXVyNjkyMTg1NDM@._V1_UY268_CR3,0,182,268_AL_.jpg",
-        "genre": [
-            "Drama"
-        ],
-        "imdbid": "tt10633456",
-        "title": "Minari",
-        "runtime": "115 min",
-        "imdbrating": 7.5,
-        "released": 2020,
-        "synopsis": "A Korean family moves to Arkansas to start a farm in the 1980s.",
-        "type": "movie",
-        "language": [
-            "English"
-        ],
-        "streamingAvailability": "https://itunes.apple.com/us/movie/minari/id1549611916"
     },
     {
         "imageurl": "https://m.media-amazon.com/images/M/MV5BN2M5MDA3NmUtM2Y2YS00NmU3LWJiMjEtZWY2ZDE4MGY1OWZjXkEyXkFqcGdeQXVyMTA2MDU0NjM5._V1_UX182_CR0,0,182,268_AL_.jpg",
@@ -1405,23 +1351,6 @@ export const NewMoviesData1=[
             "Mandarin"
         ],
         "streamingAvailability": "https://play.google.com/store/movies/details/The_Prey?gl=US&hl=en&id=KIQLV7HB0S0.P"
-    },
-    {
-        "imageurl": "https://m.media-amazon.com/images/M/MV5BNGU2NzI1OGYtMTMzZC00OWU5LWIxOTUtNzY0YTM3YWI5YTA1XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
-        "genre": [
-            "Horror"
-        ],
-        "imdbid": "tt8119752",
-        "title": "Gonjiam: Haunted Asylum",
-        "runtime": "95 min",
-        "imdbrating": 6.4,
-        "released": 2018,
-        "type": "movie",
-        "synopsis": "The crew of a horror web series travels to an abandoned asylum for a live broadcast. It soon encounters much more than expected as it moves deeper inside the nightmarish old building.",
-        "language": [
-            "Korean"
-        ],
-        "streamingAvailability": "https://tv.apple.com/us/movie/gonjiam-haunted-asylum/umc.cmc.36adhgftj8acbl96vy5r41hqb?playableId=tvs.sbd.9001%3A1424074375"
     },
     {
         "imageurl": "https://m.media-amazon.com/images/M/MV5BMmNlMjRmOTUtODM3MC00NmY3LTk2NjItZjFkNmQxMTIyZjM0XkEyXkFqcGdeQXVyNTA5ODMyMDU@._V1_UY268_CR3,0,182,268_AL_.jpg",

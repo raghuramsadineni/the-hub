@@ -23,8 +23,10 @@ const Dashboard: React.FC = () => {
             </IonHeader>
             <IonContent>
                 <IonSearchbar value={search} onIonChange={setSearchResult} className="searchBar" />
-                {//@ts-ignore
-                }{moviesData.map((movie: IMovie, index) => <div className="movieContainer"><Movie movie={movie} key={index} /></div>)}
+                <div className="movieContainer">
+                    {//@ts-ignore
+                    }{moviesData.map((movie: IMovie, index) => <div className="movieSubContainer"><Movie movie={movie} key={index} /></div>)}
+                </div>
             </IonContent>
         </IonPage>
     )

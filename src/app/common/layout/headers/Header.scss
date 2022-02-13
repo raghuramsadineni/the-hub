@@ -6,3 +6,21 @@
 .appBarLogo{
     width: 50px;
 }
+
+.logoutTextButton{
+    display: block;
+}
+
+.logoutIconButton{
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .logoutTextButton{
+        display: none;
+    }
+    
+    .logoutIconButton{
+        display: block;
+    }
+}

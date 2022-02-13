@@ -4,6 +4,18 @@
     margin: auto;
 }
 
-.movieContainer{
+.movieContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movieSubContainer {
     display: inline-block;
+}
+
+@media (max-width: 576px) {
+    .searchBar {
+        width: 98%;
+    }
 }
