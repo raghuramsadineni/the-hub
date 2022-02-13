@@ -1,18 +1,24 @@
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
-
 import { IUserSlides } from "../../../utilities/interfaces/IUserSlides";
-import { IonButton, IonCard, IonCardContent, IonInput, IonItem, IonLabel, IonText } from "@ionic/react";
+import { IonButton, IonCard, IonCardContent, IonIcon, IonInput, IonText } from "@ionic/react";
 import "./UserSlides.scss";
 
+
 const UserSlides: React.FC<IUserSlides> = (props) => {
+    const swiper = useSwiper();
+
     return (
         <Swiper className="slideContainer">
             <SwiperSlide>
                 <IonCard className="slideCardContainer">
                     <div className="slideQuestionContainer">
                         <IonText color="light"><h3>What is your name?</h3></IonText>
-                        <IonInput color="light" value={props.userInfo?.name} className="slideInputContainer" />
+                        <IonInput color="light" 
+                            value={props.userInfo?.name} 
+                            className="slideInputContainer" 
+                            />
+                        <IonButton>Next</IonButton>
                     </div>
                 </IonCard>
             </SwiperSlide>

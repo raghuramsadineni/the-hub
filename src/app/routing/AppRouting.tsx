@@ -6,6 +6,7 @@ import Home from '../pages/Home';
 import { useAuth0 } from "@auth0/auth0-react";
 import { PrivateRouteProps } from '../utilities/interfaces/IPrivateRoute';
 import Dashboard from '../pages/Dashboard';
+import Slides from '../pages/Slides';
 
 const AppRouting: React.FC = () => {
 
@@ -36,6 +37,7 @@ const AppRouting: React.FC = () => {
                 <Switch>
                     <Route path="/home" exact component={Home} />
                     <PrivateRoute path="/dashboard" component={Dashboard} />
+                    <PrivateRoute path="/slides" component={Slides} />
                     <Redirect from="*" to="/home" />
                 </Switch>
             </IonRouterOutlet>

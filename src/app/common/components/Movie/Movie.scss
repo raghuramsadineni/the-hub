@@ -1,0 +1,45 @@
+.movieCardContainer {
+    min-width: 400px;
+    min-height: 200px;
+    width: 400px;
+    height: 200px;
+}
+
+.movieCardImage {
+    object-fit: cover;
+    height: 200px;
+    width: 400px;
+}
+
+.movieDetailsContainer {
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 15px;
+}
+
+.movieDetailsTitleText {
+    color: white;
+}
+
+.movieDetailsPlayIcon {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 160px;
+    font-size: xxx-large;
+    color: white;
+}
+
+.movieCardContainer:hover {
+    .movieCardImage {
+        filter: blur(4px);
+        -webkit-filter: blur(4px);
+    }
+    .movieDetailsPlayIcon {
+        display: block;
+    }
+    .movieDetailsContainer {
+        display: block;
+    }
+}
