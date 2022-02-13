@@ -1,5 +1,141 @@
 export const NewMoviesData1=[
     {
+        "imageurl": "https://m.media-amazon.com/images/I/511-otErM8L._SL500_.jpg",
+        "genre": [
+            "Animation"
+        ],
+        "imdbid": "tt9239422",
+        "title": "To Catch a Predator",
+        "runtime": "44 min",
+        "imdbrating": 4.9,
+        "released": 2019,
+        "synopsis": "To Catch a Predator is an American reality television series in the television news magazine program Dateline NBC featuring confrontations with host Chris Hansen, partly filmed with a hidden camera, of adult men arriving at a sting house to have sex with a minor and typically being arrested as a result.",
+        "type": "movie",
+        "language": [
+            "English"
+        ],
+        "streamingAvailability": "https://www.imdb.com/title/tt3694654/"
+    },
+    {
+        "imageurl": "https://cdn.vox-cdn.com/thumbor/7TzXXGeyMRbOjKE7UDiNXOHlQK0=/0x0:1280x738/1200x800/filters:focal(538x267:742x471)/cdn.vox-cdn.com/uploads/chorus_image/image/65232906/one_piece.0.png",
+        "genre": [
+            "Animation"
+        ],
+        "imdbid": "tt9239422",
+        "title": "One Piece",
+        "runtime": "24 min",
+        "imdbrating": 4.9,
+        "released": 2019,
+        "synopsis": "Monkey D. Luffy sails with his crew of Straw Hat Pirates through the Grand Line to find the treasure One Piece and become the new king of the pirates.",
+        "type": "movie",
+        "language": [
+            "English"
+        ],
+        "streamingAvailability": "https://www.netflix.com/title/80107103"
+    },
+    {
+        "imageurl": "https://m.media-amazon.com/images/M/MV5BMTNmZDE2NDEtNTg3MS00OTE1LThlZGUtOGZkZTg0NTUyNGVmXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
+        "genre": [
+            "Animation"
+        ],
+        "imdbid": "tt9239422",
+        "title": "One Punch Man",
+        "runtime": "23 min",
+        "imdbrating": 4.9,
+        "released": 2019,
+        "synopsis": "The most powerful superhero in the world can kill anyone with one blow. But nothing can challenge him, so he struggles with ennui and depression.",
+        "type": "movie",
+        "language": [
+            "English"
+        ],
+        "streamingAvailability": "https://www.netflix.com/title/80117291"
+    },
+    {
+        "imageurl": "https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png",
+        "genre": [
+            "Animation"
+        ],
+        "imdbid": "tt9239422",
+        "title": "Breaking Bad",
+        "runtime": "62 episodes",
+        "imdbrating": 4.9,
+        "released": 2008,
+        "synopsis": "Breaking Bad is an American neo-Western crime drama television series created and produced by Vince Gilligan. The show aired on AMC from January 20, 2008, to September 29, 2013, consisting of five seasons for a total of 62 episodes.",
+        "type": "movie",
+        "language": [
+            "English"
+        ],
+        "streamingAvailability": "https://www.netflix.com/title/70143836?source=35"
+    },    
+    {
+        "imageurl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMpWgFcYiV0MThcMMAVihr_5Zx2twoZ2Q_kVZOsVZ9nH1hmJZj",
+        "genre": [
+            "Animation"
+        ],
+        "imdbid": "tt9239422",
+        "title": "Friends",
+        "runtime": "10 seasons",
+        "imdbrating": 4.9,
+        "released": 1994,
+        "synopsis": "Friends is an American television sitcom created by David Crane and Marta Kauffman, which aired on NBC from September 22, 1994, to May 6, 2004, lasting ten seasons.",
+        "type": "movie",
+        "language": [
+            "English"
+        ],
+        "streamingAvailability": "https://play.hbomax.com/series/urn:hbo:series:GXdbR_gOXWJuAuwEAACVH?camp=googleHBOMAX&action=play"
+    },    
+    {
+        "imageurl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpUkHaqfWzj4D5wcEQjIZgC-P3A1VGUK4FGR0xT3KPdvGYAsiz",
+        "genre": [
+            "Animation"
+        ],
+        "imdbid": "tt9239422",
+        "title": "The Office",
+        "runtime": "9 seasons",
+        "imdbrating": 4.9,
+        "released": 2019,
+        "synopsis": "The most powerful superhero in the world can kill anyone with one blow. But nothing can challenge him, so he struggles with ennui and depression.",
+        "type": "movie",
+        "language": [
+            "English"
+        ],
+        "streamingAvailability": "https://watch.sling.com/browse/my-tv/details/series/d5ed654f94904b67893fec25a8c877f1?packId=c3fb5ad5e3054f6db887a4891f676ea9"
+    },    
+    {
+        "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQaEFnTagipxGek320Ytdkfar67mGKRrTgb4YhvIq1bKxjGDZ5",
+        "genre": [
+            "Animation"
+        ],
+        "imdbid": "tt9239422",
+        "title": "Game of Thrones",
+        "runtime": "8 seasons",
+        "imdbrating": 4.9,
+        "released": 2011,
+        "synopsis": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+        "type": "movie",
+        "language": [
+            "English"
+        ],
+        "streamingAvailability": "https://www.hulu.com/series/6a787bf6-cc23-47a2-a2f3-747e22c30d1c"
+    },    
+    {
+        "imageurl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbllVWxmzkxH1PCsHM9OCm_FnuP9KmQtAB3oajQGxgHJTBV-o8",
+        "genre": [
+            "Animation"
+        ],
+        "imdbid": "tt9239422",
+        "title": "Squid Game",
+        "runtime": "1 season",
+        "imdbrating": 4.9,
+        "released": 2021,
+        "synopsis": "Hundreds of cash-strapped contestants accept an invitation to compete in children's games for a tempting prize, but the stakes are deadly.",
+        "type": "movie",
+        "language": [
+            "English"
+        ],
+        "streamingAvailability": "https://www.netflix.com/title/81040344?source=35"
+    },
+    {
         "imageurl": "https://m.media-amazon.com/images/M/MV5BMjNlMjU2MDAtM2UwOS00ZDY2LTkyODUtZGI5NDgxMzY1MjY4XkEyXkFqcGdeQXVyNjI5NzQ1MTI@._V1_UX182_CR0,0,182,268_AL_.jpg",
         "genre": [
             "Animation"
